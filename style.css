@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  background-image: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+  color: gold;
+}
+
+header {
+  background: linear-gradient(to right, #111, #333);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid gold;
+}
+
+h1 {
+  font-size: 3em;
+  color: gold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+button {
+  background-color: gold;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid gold;
+}
